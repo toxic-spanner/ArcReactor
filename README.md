@@ -1,2 +1,2 @@
 # ArcReactor
-The überuseful macro and utility library for MCA.
+An editor and debugger for MCA.
