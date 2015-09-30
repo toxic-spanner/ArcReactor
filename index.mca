@@ -1,0 +1,11 @@
+/**
+ * ARCREACTOR
+ *
+ * Loads _all_ components. If you only want to load a certain component,
+ * use its component name as the sub-folder (e.g. `import "reactor/blocks")
+ */
+
+import "./blocks";
+import "./items";
+import "./commands";
+import "./control";
