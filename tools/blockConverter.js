@@ -71,6 +71,6 @@ blockIdResult.push("];");
 itemIdResult.push("];");
 
 fs.writeFileSync('../blocks/blocklist.mca', blockNameResult.join("\n"), 'utf8');
-fs.writeFileSync('../blocks/block_id.mca', blockIdResult.join("\n"), 'utf8');
+fs.writeFileSync('../blocks/block_ids.mca', blockIdResult.join("\n"), 'utf8');
 fs.writeFileSync('../items/itemlist.mca', itemNameResult.join("\n"), 'utf8');
-fs.writeFileSync('../items/item_id.mca', itemIdResult.join("\n"), 'utf8');
+fs.writeFileSync('../items/item_ids.mca', itemIdResult.join("\n"), 'utf8');
